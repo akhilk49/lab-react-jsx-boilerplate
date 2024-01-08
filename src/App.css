@@ -1,1 +1,27 @@
-/* add your styles here */
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}div{
+    display: grid;
+    grid-template-columns: repeat(2,500px);
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    height: 500px;
+    width: 500px;
+    border: 2px solid black;
+    border-radius: 12px;
+}
+.title{
+    position: absolute;
+    left: 35%;
+    top: 10%;
+    text-align: center;
+}
+.grid{
+    position: absolute;
+    top: 25%;
+}
